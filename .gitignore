@@ -33,4 +33,4 @@ build/
 .vscode/
 
 ### Application properties ###
-application.yaml
+src/main/resources/application.yaml
