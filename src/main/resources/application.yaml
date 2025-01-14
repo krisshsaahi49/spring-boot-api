@@ -1,0 +1,16 @@
+spring:
+  datasource:
+#    url: jdbc:mysql://localhost:3306/inventory?useSSL=false
+#    url: jdbc:mysql://host.docker.internal:3306/inventory?useSSL=false
+    url: jdbc:mysql://inventory.cvcew6iu4jvx.us-east-1.rds.amazonaws.com/inventory?useSSL=false
+    username: admin
+    password: Cp!kizaCHB]ZR.PNhct6ABi$(ArG
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8080
+
+
