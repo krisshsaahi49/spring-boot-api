@@ -103,11 +103,13 @@ This will:
    springboot-k8s-svc  NodePort   10.100.200.50  <none>        8080:32000/TCP   5m
    ```
 
-2. Access the application:
-   ```
-   http://<node-ip>:<node-port>
-   ```
-   Replace `<node-ip>` with the cluster node IP and `<node-port>` with the assigned NodePort (e.g., `32000`).
+   2. Access the application:
+      ```
+      http://<node-ip>:<node-port>
+      ```
+      Replace `<node-ip>` with the cluster node IP and `<node-port>` with the assigned NodePort (e.g., `32000`). 
+                              or
+      Run this command ```minikube service <service_name> --url```
 
 ---
 
